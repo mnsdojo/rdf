@@ -1,0 +1,14 @@
+{
+  "name": "rdf",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "./rdf": "./index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
